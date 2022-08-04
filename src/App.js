@@ -1,16 +1,17 @@
 
 import './App.css';
-import Navbar from './Navbar.js';
-import Form from './Form.js';
+import Navbar from './components/Navbar.js';
+import Form from './components/Form.js';
+import About from './components/About';
 
 function App() {
   return (
     <>
-      <Navbar title="Navbar"/> 
-      <div className="container my-3" >
+
+      <Navbar title="TextUtils"/>
+      <About/>
       <Form heading="Enter text here to modify"/>
-      </div>
-     
+
     </>
   );
 }
